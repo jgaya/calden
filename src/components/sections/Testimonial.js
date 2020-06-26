@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — It solves our logistical problems and gives a better image to our business. I increase the income of new customers and current customers are more happy.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">Daniel Alonso</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">tuorganizador.com</a>
                   </span>
                 </div>
               </div>
@@ -79,14 +79,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — The relationship is stronger than the contract. Calden is aligned with our goals in a way that doesn’t keep me up at night thinking about the letter of the SOW. They have shown they value our business and are invested in our success.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">Ranses Good</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">encuestador.com</a>
                   </span>
                 </div>
               </div>
@@ -96,14 +96,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — The team has surpassed our expectations in almost every way. Our squad is smart, inquisitive, endlessly positive, and always seeking to improve. We’ve started to accomplish great things together, and our approach to CI/CD and data-centric feature development keeps us confident that we’re quickly delivering experiences to our user base that are both high quality and actually useful.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
+                  <span className="testimonial-item-name text-color-high">Robert Cantalapiedra</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">LOL</a>
                   </span>
                 </div>
               </div>
