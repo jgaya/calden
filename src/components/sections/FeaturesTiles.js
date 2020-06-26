@@ -115,7 +115,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Front End
+                    UI /UX
                     </h4>
                   <p className="m-0 text-sm">
                    We develop projects focusing on architecture, flexibility, scalability and system performance to reach optimal solutions that allow us to achieve customers needs. 
@@ -137,10 +137,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Back End
+                    IT Consulting
                     </h4>
                   <p className="m-0 text-sm">
-                    llolololo lolol lolol lolo lolo lololo lolo lolol 
+                    With IT consulting services, you revamp your IT environment to make it go in hand with your business needs. We offers consultancy on holistic, fast, and cost-effective optimization of IT systems and processes to ensure tangible business outcomes.
                     </p>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    QA/QA Automation
+                    QA Testing
                     </h4>
                   <p className="m-0 text-sm">
                     Applying the highest quality standards and techniques in software quality assurance and automated testing services, we ensure your cloud and mobile applications are customer ready.

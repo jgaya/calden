@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Somos lo mas de zamora
+                Software solution for your business
                 </p>
             </div>
           </div>

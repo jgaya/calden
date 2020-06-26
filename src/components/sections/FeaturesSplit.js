@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                   Agile Methodology
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Using SCRUM as working framework, because it offers a simply process, engineering and managerial practices packaged together to allow higher degree of discipline, and sustainability in every single area of software development, from test-driven to continuous integration to daily stand-ups.
                   </p>
               </div>
               <div className={
