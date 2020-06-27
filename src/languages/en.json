@@ -1,0 +1,16 @@
+{
+	"hero.Software": "Software solution for your business",
+	"tiles.built" : "Build up the whole picture",
+	"tiles.paragraph" : "Here goes something special",
+	"tiles.analytics": "Analytics",
+	"tiles.analytics.explanation" : "We help you realize the opportunities presented by your most valuable asset — data. Our data scientists, consultants and engineers extract the full potential of your data.",
+	"tiles.mobile" : "Mobile",
+	"tiles.mobile.explanation" : "Our mobile application experts collaborate with you from development to launch, based on our extensive experience in the technology, finance, healthcare and education industries.",
+	"tiles.ux.explanation" : "We develop projects focusing on architecture, flexibility, scalability and system performance to reach optimal solutions that allow us to achieve customers needs.",
+	"tiles.it" :"IT Consulting",
+	"tiles.it.explanation" :"With IT consulting services, you revamp your IT environment to make it go in hand with your business needs. We offers consultancy on holistic, fast, and cost-effective optimization of IT systems and processes to ensure tangible business outcomes.",
+	"tiles.qa" : "QA Testing",
+	"tiles.qa.explanation" : "Applying the highest quality standards and techniques in software quality assurance and automated testing services, we ensure your cloud and mobile applications are customer ready.",
+	"tiles.integration" : "Integration",
+	"tiles.integration.explanation" : "We integrate your work team to deliver experience & know-how to your projects."
+}

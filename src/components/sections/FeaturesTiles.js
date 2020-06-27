@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -44,8 +45,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'tiles.built',
+    paragraph: 'tiles.paragraph'
   };
 
   return (
@@ -71,10 +72,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Analytics
+                    <FormattedMessage id="tiles.analytics" defaultMessage="Analytics" />
                     </h4>
                   <p className="m-0 text-sm">
-                    We help you realize the opportunities presented by your most valuable asset — data. Our data scientists, consultants and engineers extract the full potential of your data.
+                  
+                  <FormattedMessage id="tiles.analytics.explanation" defaultMessage="..." />                    
                     </p>
                 </div>
               </div>
@@ -93,10 +95,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Mobile
+                    <FormattedMessage id="tiles.mobile" defaultMessage="Mobile" />
                     </h4>
                   <p className="m-0 text-sm">
-                    Our mobile application experts collaborate with you from development to launch, based on our extensive experience in the technology, finance, healthcare and education industries.
+                    <FormattedMessage id="tiles.mobile.explanation" defaultMessage="..." />
                     </p>
                 </div>
               </div>
@@ -118,7 +120,7 @@ const FeaturesTiles = ({
                     UI /UX
                     </h4>
                   <p className="m-0 text-sm">
-                   We develop projects focusing on architecture, flexibility, scalability and system performance to reach optimal solutions that allow us to achieve customers needs. 
+                  <FormattedMessage id="tiles.ux.explanation" defaultMessage="..." />                   
                     </p>
                 </div>
               </div>
@@ -136,11 +138,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    IT Consulting
+                  <h4 className="mt-0 mb-8">                    
+                  <FormattedMessage id="tiles.it" defaultMessage="IT Consulting" />                    
                     </h4>
                   <p className="m-0 text-sm">
-                    With IT consulting services, you revamp your IT environment to make it go in hand with your business needs. We offers consultancy on holistic, fast, and cost-effective optimization of IT systems and processes to ensure tangible business outcomes.
+                      <FormattedMessage id="tiles.it.explanation" defaultMessage="..." /> 
                     </p>
                 </div>
               </div>
@@ -159,10 +161,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    QA Testing
+                    <FormattedMessage id="tiles.qa" defaultMessage="QA Testing" />
                     </h4>
                   <p className="m-0 text-sm">
-                    Applying the highest quality standards and techniques in software quality assurance and automated testing services, we ensure your cloud and mobile applications are customer ready.
+                    <FormattedMessage id="tiles.qa.explanation" defaultMessage="..." />
                     </p>
                 </div>
               </div>
@@ -181,10 +183,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Integration
+                    <FormattedMessage id="tiles.integration" defaultMessage="Integration" />
                     </h4>
                   <p className="m-0 text-sm">
-                    We integrate your work team to deliver experience & know-how to your projects.
+                    <FormattedMessage id="tiles.integration.explanation" defaultMessage="..." />
                     </p>
                 </div>
               </div>

@@ -6,6 +6,8 @@ import { createBrowserHistory } from "history";
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import Wrapper from "./components/Wrapper";
+
 //import './App.css';
 import './assets/scss/style.scss';
 
@@ -13,7 +15,8 @@ const history = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={history}>
-    <App />
+    <Wrapper><App />
+    </Wrapper>
   </Router>,
   document.getElementById('root')
 );

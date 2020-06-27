@@ -5,6 +5,7 @@ import { SectionProps } from '../../utils/SectionProps';
 // import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   ...SectionProps.types
@@ -60,12 +61,16 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">                              
               Calden <span className="text-color-primary">Soft</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Software solution for your business
+                
+                <FormattedMessage
+                  id="hero.Software"
+                  defaultMessage="Software solution for your business"
+               />
                 </p>
             </div>
           </div>

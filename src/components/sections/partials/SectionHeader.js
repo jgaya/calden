@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   data: PropTypes.shape({
@@ -45,10 +46,10 @@ const SectionHeader = ({
                 classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}</Component>
+                )}><FormattedMessage id={data.title} defaultMessage="..." /> </Component>
             }
             {data.paragraph &&
-              <p className="m-0">{data.paragraph}</p>
+              <p className="m-0"> <FormattedMessage id={data.paragraph} defaultMessage="..." /></p>
             }
           </div>
         </div>

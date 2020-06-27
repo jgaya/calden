@@ -1,0 +1,16 @@
+{
+	"hero.Software": "Soluciones de Software para tu empresa",
+	"tiles.built" : "Construye la imagen completa",
+	"tiles.paragraph" : "Aca va algo especial",
+	"tiles.analytics": "Analiticas",
+	"tiles.analytics.explanation" : "Le ayudamos a darse cuenta de las oportunidades que presenta su activo más valioso: los datos. Nuestros científicos de datos, consultores e ingenieros extraen todo el potencial de sus datos.",
+	"tiles.mobile" : "Mobil",
+	"tiles.mobile.explanation" : "Nuestros expertos en aplicaciones móviles colaboran con usted desde el desarrollo hasta el lanzamiento, en base a nuestra amplia experiencia en las industrias de tecnología, finanzas, salud y educación.",
+	"tiles.ux.explanation" : "Desarrollamos proyectos centrados en la arquitectura, la flexibilidad, la escalabilidad y el rendimiento del sistema para alcanzar soluciones óptimas que nos permitan satisfacer las necesidades de los clientes.",
+	"tiles.it" :"Consultoria IT ",
+	"tiles.it.explanation" :"Con los servicios de consultoría de TI, usted renueva su entorno de TI para adaptarlo a las necesidades de su negocio. Ofrecemos consultoría sobre optimización holística, rápida y rentable de sistemas y procesos de TI para garantizar resultados comerciales tangibles.",
+	"tiles.qa" : "Prueba de Calidad",
+	"tiles.qa.explanation" : "Aplicando los más altos estándares y técnicas de calidad en el aseguramiento de la calidad del software y los servicios de pruebas automatizadas, nos aseguramos de que sus aplicaciones móviles y en la nube estén listas para el cliente.",
+	"tiles.integration" : "Integracion",
+	"tiles.integration.explanation" : "Integramos su equipo de trabajo para brindar experiencia y conocimientos a sus proyectos."
+}
