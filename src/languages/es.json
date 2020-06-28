@@ -12,5 +12,23 @@
 	"tiles.qa" : "Prueba de Calidad",
 	"tiles.qa.explanation" : "Aplicando los más altos estándares y técnicas de calidad en el aseguramiento de la calidad del software y los servicios de pruebas automatizadas, nos aseguramos de que sus aplicaciones móviles y en la nube estén listas para el cliente.",
 	"tiles.integration" : "Integracion",
-	"tiles.integration.explanation" : "Integramos su equipo de trabajo para brindar experiencia y conocimientos a sus proyectos."
+	"tiles.integration.explanation" : "Integramos su equipo de trabajo para brindar experiencia y conocimientos a sus proyectos.",
+	"split.workflow" : "Flujo de trabajo que simplemente funciona",
+	"split.workflow.explanation" : "algo ...",
+	"split.agyle" : "Metodología ágil",
+	"split.agyle.title" : "Empodera a tus equipos",
+	"split.agyle.explanation" : "Usando SCRUM como marco de trabajo, ya que ofrece un proceso simple, prácticas de ingeniería y gestión agrupadas para permitir un mayor grado de disciplina y sostenibilidad en todas las áreas del desarrollo de software, desde la integración basada en pruebas hasta la integración continua y los stand-ups diarios.",
+	"split.startup" : "Startup",
+	"split.startup.title" : "La Mejor Solucion",
+	"split.startup.explanation" : "Ayudamos a nuestros clientes a imaginar, diseñar, construir y lanzar productos digitales innovadores que atraigan a los clientes y generen ingresos. Impulsamos la aceleración de negocios a través de lo digital, brindando experiencias de clientes altamente convincentes que impulsan a las empresas hacia adelante.",
+	"split.nearshore" : "¿Por qué Nearshore?",
+	"split.nearshore.title" : "REVITALIZA TU NEGOCIO",
+	"split.nearshore.explanation" : "Cuando la colaboración rentable en tiempo real es crítica para la entrega exitosa y puntual de sus soluciones de software, nearshore es la mejor opción.",
+	"testimonial.head" : "Testimonios de Clientes",
+	"testimonial.head.title" : "Algo aqui ...",
+	"testimonial.n1" : "Resuelve nuestros problemas logísticos y le da una mejor imagen a nuestro negocio. Aumento los ingresos de nuevos clientes y los clientes actuales están más contentos.",
+	"testimonial.n2" : "La relación es más fuerte que el contrato. Calden está alineado con nuestros objetivos de una manera que no me mantiene despierto por la noche pensando en la letra de la SOW. Han demostrado que valoran nuestro negocio y están invertidos en nuestro éxito.",
+	"testimonial.n3" : "El equipo ha superado nuestras expectativas en casi todos los sentidos. Nuestro equipo es inteligente, inquisitivo, infinitamente positivo y siempre busca mejorar. Hemos comenzado a lograr grandes cosas juntos, y nuestro enfoque para CI / CD y el desarrollo de funciones centradas en datos nos mantiene seguros de que estamos entregando rápidamente experiencias a nuestra base de usuarios que son de alta calidad y realmente útiles.",
+	"cta.text" : "¿Para previsualizar diseños y visual?"
+
 }

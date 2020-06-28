@@ -12,5 +12,23 @@
 	"tiles.qa" : "QA Testing",
 	"tiles.qa.explanation" : "Applying the highest quality standards and techniques in software quality assurance and automated testing services, we ensure your cloud and mobile applications are customer ready.",
 	"tiles.integration" : "Integration",
-	"tiles.integration.explanation" : "We integrate your work team to deliver experience & know-how to your projects."
+	"tiles.integration.explanation" : "We integrate your work team to deliver experience & know-how to your projects.",
+	"split.workflow" : "Workflow that just works",
+	"split.workflow.explanation" : "something ...",
+	"split.agyle" : "Agile Methodology",
+	"split.agyle.title" : "Empower your teams",
+	"split.agyle.explanation" : "Using SCRUM as working framework, because it offers a simply process, engineering and managerial practices packaged together to allow higher degree of discipline, and sustainability in every single area of software development, from test-driven to continuous integration to daily stand-ups.",
+	"split.startup" : "Startups",
+	"split.startup.title" : "The Best Solution",
+	"split.startup.explanation" : "We help our clients to imagine, design, build, and launch innovative digital products that engage customers and drive revenue. We fuel business acceleration through digital, providing highly compelling customer experiences that drive businesses forward.",
+	"split.nearshore" : "Why Nearshore?",
+	"split.nearshore.title" : "REVITALIZE YOUR BUSINESS",
+	"split.nearshore.explanation" : "When cost effective, real-time collaboration is critical to the on-time, successful delivery of your software solutions, nearshore is the best option.",
+	"testimonial.head" : "Customer testimonials",
+	"testimonial.head.title" : "something here ...",
+	"testimonial.n1" : "It solves our logistical problems and gives a better image to our business. I increase the income of new customers and current customers are more happy.",
+	"testimonial.n2" : "The relationship is stronger than the contract. Calden is aligned with our goals in a way that doesn’t keep me up at night thinking about the letter of the SOW. They have shown they value our business and are invested in our success.",
+	"testimonial.n3" : "The team has surpassed our expectations in almost every way. Our squad is smart, inquisitive, endlessly positive, and always seeking to improve. We’ve started to accomplish great things together, and our approach to CI/CD and data-centric feature development keeps us confident that we’re quickly delivering experiences to our user base that are both high quality and actually useful.",
+	"cta.text" : "For previewing layouts and visual?"
+
 }

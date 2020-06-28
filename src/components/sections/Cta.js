@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   ...SectionProps.types,
@@ -53,7 +54,7 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              For previewing layouts and visual?
+              <FormattedMessage id="cta.text" defaultMessage="..." />
               </h3>
           </div>
           <div className="cta-action">

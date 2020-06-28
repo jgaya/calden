@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -50,8 +51,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'split.workflow',
+    paragraph: 'split.workflow.explanation'
   };
 
   return (
@@ -67,13 +68,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  <FormattedMessage id="split.agyle.title" defaultMessage="..." />
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Agile Methodology
+                 <FormattedMessage id="split.agyle" defaultMessage="..." />
                   </h3>
                 <p className="m-0">
-                  Using SCRUM as working framework, because it offers a simply process, engineering and managerial practices packaged together to allow higher degree of discipline, and sustainability in every single area of software development, from test-driven to continuous integration to daily stand-ups.
+                  <FormattedMessage id="split.agyle.explanation" defaultMessage="..." />
                   </p>
               </div>
               <div className={
@@ -92,14 +93,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">                
+                  <FormattedMessage id="split.startup.title" defaultMessage="..." />
                   </div>
                 <h3 className="mt-0 mb-12">
-                  For Startups
+                  <FormattedMessage id="split.startup" defaultMessage="..." />                  
                   </h3>
                 <p className="m-0">
-                  We help our clients to imagine, design, build, and launch innovative digital products that engage customers and drive revenue. We fuel business acceleration through digital, providing highly compelling customer experiences that drive businesses forward.
+                  <FormattedMessage id="split.startup.explanation" defaultMessage="..." />
                   </p>
               </div>
               <div className={
@@ -119,13 +120,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  <FormattedMessage id="split.nearshore.title" defaultMessage="..." />                  
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Why Nearshore?
+                  <FormattedMessage id="split.nearshore" defaultMessage="..." />
+                  
                   </h3>
                 <p className="m-0">
-                  When cost effective, real-time collaboration is critical to the on-time, successful delivery of your software solutions, nearshore is the best option.
+                  <FormattedMessage id="split.nearshore.explanation" defaultMessage="..." />
                   </p>
               </div>
               <div className={

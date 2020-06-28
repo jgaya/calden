@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import { FormattedMessage } from "react-intl";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -44,8 +45,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'testimonial.head',
+    paragraph: 'testimonial.head.title'
   };
 
   return (
@@ -62,7 +63,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — It solves our logistical problems and gives a better image to our business. I increase the income of new customers and current customers are more happy.
+                    — <FormattedMessage id="testimonial.n1" defaultMessage="..." />
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -79,7 +80,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — The relationship is stronger than the contract. Calden is aligned with our goals in a way that doesn’t keep me up at night thinking about the letter of the SOW. They have shown they value our business and are invested in our success.
+                    — <FormattedMessage id="testimonial.n2" defaultMessage="..." />
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -96,7 +97,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — The team has surpassed our expectations in almost every way. Our squad is smart, inquisitive, endlessly positive, and always seeking to improve. We’ve started to accomplish great things together, and our approach to CI/CD and data-centric feature development keeps us confident that we’re quickly delivering experiences to our user base that are both high quality and actually useful.
+                    — <FormattedMessage id="testimonial.n3" defaultMessage="..." />
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
