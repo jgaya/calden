@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useContext } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
@@ -10,7 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 
-import { Context } from "./components/Wrapper";
+
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -21,7 +21,7 @@ const trackPage = page => {
 };
 
 const App = () => {
-  const context = useContext(Context);
+
   const childRef = useRef();
   let location = useLocation();
 
@@ -45,10 +45,7 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
 
         </Switch>
-        <select value={context.locale} onChange={context.selectLang}>
-          <option value="en-US">English</option>
-          <option value="es-ES">Español</option>
-        </select>
+        
         </div>
       )} />
     

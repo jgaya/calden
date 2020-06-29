@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useContext } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
+import { Context } from "../../components/Wrapper";
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -30,7 +31,7 @@ const Header = ({
 }) => {
 
   const [isActive, setIsactive] = useState(false);
-
+  const context = useContext(Context);
   const nav = useRef(null);
   const hamburger = useRef(null);
 
@@ -79,6 +80,10 @@ const Header = ({
       className={classes}
     >
       <div className="container">
+      <select value={context.locale} onChange={context.selectLang}>
+          <option value="en-US">English</option>
+          <option value="es-ES">Español</option>
+        </select>
         <div className={
           classNames(
             'site-header-inner',
