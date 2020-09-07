@@ -80,10 +80,12 @@ const Header = ({
       className={classes}
     >
       <div className="container">
-      <select value={context.locale} onChange={context.selectLang}>
+      <div className="select">
+        <select value={context.locale} onChange={context.selectLang} class="selectpicker">
           <option value="en-US">English</option>
           <option value="es-ES">Español</option>
         </select>
+      </div>
         <div className={
           classNames(
             'site-header-inner',
